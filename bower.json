@@ -1,0 +1,28 @@
+{
+  "name": "phimhay",
+  "description": "phimhay assets",
+  "main": "index",
+  "authors": [
+    "Liam Dang <dangngoclinh90@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "phimhay"
+  ],
+  "homepage": "https://github.com/dangngoclinh/phimhay",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "resources/assets/bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "bootstrap4#^3.3.7",
+    "jquery": "^3.2.1",
+    "font-awesome": "Font-Awesome#^4.7.0",
+    "admin-lte": "adminlte#^2.4.2"
+  }
+}
