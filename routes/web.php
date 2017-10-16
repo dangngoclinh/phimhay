@@ -14,3 +14,13 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('lam', function() {
+	return 'lamdang';
+});
+
+Route::prefix('admin')->group(function () {
+	Route::get('/episode-link', function() {
+		return view('admin/blank');
+	});
+});
